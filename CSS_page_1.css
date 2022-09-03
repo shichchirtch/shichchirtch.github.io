@@ -1,0 +1,233 @@
+@import url("normalize.css");
+
+*{
+margin-top:0;
+}
+/*body {*/
+/*  margin: 0 auto; !*Расстояние от края элемента до края окна браузера*!*/
+/*  font-family: Roboto, sans-serif; !*Устанавливает семейство шрифта*!*/
+/*}*/
+.container{
+  /*width: 100%;*/
+max-width: 1219px;
+margin:auto;
+font-family: Arial;
+  /*padding-left: 55px; !*Устанавливает значение поля от левого края содержимого элемента*!*/
+  /*padding-right: 55px;*/
+}
+
+.first{
+  width: 100%;
+background-color: #007765;
+position:fixed;
+  max-width: 1219px;
+top:0;
+z-index:21;
+height: 84px;
+  align-items: center;
+  display: flex;
+}
+.logotype{
+width: 184px;
+height:45px;
+padding-top:10px;
+padding-bottom:18px;
+}
+
+.first-text{
+color:white;
+padding:15px;
+margin-left:60px;
+font-family: Arial;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+display:flex;
+/*display:flex;*/
+/*text-align:right;*/
+}
+
+.empty_space{
+padding-left:510px;
+text-align:right;
+text-size:40px;
+margin-right:0px;
+padding-top:25px;
+}
+
+a{
+color:white;
+text-decoration: None;
+}
+/* ________________________________________second_ BLoCK _______________________________________________________________________*/
+/*.examp{*/
+/*text-align:right;*/
+/*padding-right:50px;*/
+/*}*/
+
+.second{
+  background: url("image122.png") center no-repeat;
+  /*background-position: center;*/
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  margin-top:84px;
+  padding-top: 60px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+  padding-bottom: 60px;
+}
+.second_text{
+  text-align:center;
+  font-size:75px;
+  padding-top:160px;
+  padding-bottom: 160px;
+  color:white;
+  line-height: 84px;
+}
+/*_----------------------------------------------THIRD ________----------------------------------------*/
+
+.third{
+  background-color: #EEEEEE;
+  padding-left: 55px;
+  padding-right:55px;
+  padding-top: 48px;
+   padding-bottom: 92px;
+}
+h2{
+color:#007765;
+font-size: 64px;
+text-align:center;
+Weight: 500;
+Line-height : 75px;
+padding-top:28px;
+}
+.third_text{
+font:Roboto;
+/*padding-top:16px;  !*              *!*/
+text-align:left;
+font-size:32px;
+font-weight:400;
+line-height:37.5px;
+/*padding-bottom:92px;*/
+}
+/*///////////////////////////forth////////////////////////////////////////////////////////*/
+
+.fourth{
+  background: url("image.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 483px;
+  left: 0px;
+  top: 1206px;
+}
+.fourth_text{
+font:Roboto;
+font-style:italic;
+padding-top:143px;
+text-align:center;
+font-size:48px;
+font-weight:800;
+line-height:56.25px;
+padding-bottom:92px;
+padding-left:140px;
+padding-right:140px;
+color:white;
+}
+/*8888888888888888888888888888888888888_add_section******888888888888888888888888888888888888888*/
+
+.add_s {
+  background-color: #fff; /*Определяет цвет фона элемента*/
+  padding-top: 48px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+  padding-bottom: 92px;
+  padding-left: 54px ;
+  padding-right:55px ;
+}
+.text_section_4 {
+  font-style: normal; /*Определяет начертание шрифта — обычное, курсивное или наклонное*/
+  font-weight: 500; /*Устанавливает насыщенность шрифта*/
+  font-size: 32px; /*Определяет размер шрифта элемента*/
+  line-height: 38.5px; /*Задаёт высоту строки текста*/
+  color: #000; /*Определяет цвет текста элемента*/
+}
+.logo {
+  float: left; /*Остальные элементы будут обтекать его с других сторон*/
+  padding-right: 48px; /*Устанавливает значение поля от правого края содержимого элемента*/
+}
+.logo_img {
+  width: 118px; /*Устанавливает ширину содержимого элемента*/
+  height: 118px; /*Устанавливает высоту содержимого элемента*/
+}
+/*)))))))))))))))))))))))))))))))))FIFTH ))))))))))))))))))))))))))))))))))))*/
+.fifth{
+  background-color: #EEEEEE;
+  padding-left: 54px ;
+  padding-right:55px ;
+  /*height: 845px;*/
+}
+/*padding-top: 48px; !*Устанавливает значение поля от верхнего края содержимого элемента*!*/
+/*  padding-bottom: 92px;*/
+/*  padding-left: 54px ;*/
+/*  padding-right:55px ;*/
+.t1{
+  padding-top: 58px;
+}
+
+.img{
+
+  width: 350px; /*Устанавливает ширину содержимого элемента*/
+  height: 283px; /*Устанавливает высоту содержимого элемента*/
+  text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+  display: flex; /*Определяет как элемент должен быть показан в документе*/
+  flex-flow: column wrap;
+  align-items: center; /*Выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении*/
+  padding-bottom: 55px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+  margin-bottom:-50px;
+}
+.name {
+  font-weight: 700; /*Устанавливает насыщенность шрифта*/
+  font-size: 24px; /*Определяет размер шрифта элемента*/
+  line-height: 0px; /*Задаёт высоту строки текста*/
+  color: #007765; /*Определяет цвет текста элемента*/
+
+}
+.figure {
+  margin: 0; /*Расстояние от края элемента до края другог элемента*/
+  padding: 0; /*Устанавливает значение полей вокруг содержимого элемента*/
+  display: flex; /*Определяет как элемент должен быть показан в документе*/
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.foto {
+  width: 168px; /*Устанавливает ширину содержимого элемента*/
+  height: 168px; /*Устанавливает высоту содержимого элемента*/
+}
+.podpis{
+  font-weight: bolder;
+}
+.common{
+  display: flex;
+}
+
+/*+++++++++++++++++++++++++++++ S I S T H +++++++++++++++++++++++++++++++++++++++++++++*/
+.sixth{
+ background-color: #333333;
+  padding-top: 48px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+  padding-bottom: 64px;
+  padding-left: 340px ;
+  padding-right:339px ;
+  width: 100%;
+
+}
+
+.sixth_text{
+font:Roboto;
+/*padding-top:48px;*/
+  max-width: 1249px;
+text-align:center;
+font-size:18px;
+font-weight:400;
+line-height:21px;
+color:white;
+  padding-left: 340px;
+  padding-right: 339px ;
+}
