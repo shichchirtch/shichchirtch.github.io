@@ -213,9 +213,9 @@ color:white;
  background-color: #333333;
   padding-top: 48px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
   padding-bottom: 64px;
-  padding-left: 340px ;
-  padding-right:339px ;
-  width: 100%;
+  padding-left: 55px ;
+  padding-right:55px ;
+  /*width: 100%;*/
 
 }
 
@@ -228,6 +228,6 @@ font-size:18px;
 font-weight:400;
 line-height:21px;
 color:white;
-  padding-left: 340px;
-  padding-right: 339px ;
+  padding-left: 23%;
+  padding-right: 23% ;
 }
